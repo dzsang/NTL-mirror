@@ -1,0 +1,14 @@
+*** CheckFeatures log ***
+g++ -I../include -I. -march=native -g -O2 -o TestGetTime TestGetTime.cpp GetTime1.cpp -lm
+running
+g++ -I../include -I. -march=native -g -O2 -o TestGetPID TestGetPID.cpp GetPID1.cpp -lm
+g++ -I../include -I. -march=native -g -O2 CheckALIGNED_ARRAY.cpp -o CheckFeatures -lm
+g++ -I../include -I. -march=native -g -O2 CheckBUILTIN_CLZL.cpp -o CheckFeatures -lm
+g++ -I../include -I. -march=native -g -O2 CheckLL_TYPE.cpp -o CheckFeatures -lm
+g++ -I../include -I. -march=native -g -O2 CheckSSSE3.cpp -o CheckFeatures -lm
+g++ -I../include -I. -march=native -g -O2 CheckAVX.cpp -o CheckFeatures -lm
+g++ -I../include -I. -march=native -g -O2 CheckPCLMUL.cpp -o CheckFeatures -lm
+g++ -I../include -I. -march=native -g -O2 CheckAVX2.cpp -o CheckFeatures -lm
+g++ -I../include -I. -march=native -g -O2 CheckFMA.cpp -o CheckFeatures -lm
+g++ -I../include -I. -march=native -g -O2 CheckCOPY_TRAITS1.cpp -o CheckFeatures -lm
+g++ -I../include -I. -march=native -g -O2 CheckCOPY_TRAITS2.cpp -o CheckFeatures -lm
